@@ -22,11 +22,10 @@ links = [
     "https://www.xrayvip.com/free.txt",
     "https://ghproxy.net/https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt",
     "https://jiang.netlify.app",
-
     "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v2",
-    "https://node.clashnode.cc/uploads/2025/12/1-20251206.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md",
+    "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
     
    "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml",
     "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml",
