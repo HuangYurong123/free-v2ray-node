@@ -63,6 +63,18 @@ links = [
     "https://www.freeclashnode.com/uploads/{Y}/{m}/2-{Ymd}.yaml",
     "https://www.freeclashnode.com/uploads/{Y}/{m}/3-{Ymd}.yaml",
     "https://www.freeclashnode.com/uploads/{Y}/{m}/4-{Ymd}.yaml",
+
+    "https://app-vpn.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://node.freeclashnode.com/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://clashnode.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://vegamoviesproxy.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://clash-v2ray.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://clashzhuanxian.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://ssrclash.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://vpnlogin.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://tizijichang.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
+    "https://github.nodebest.xyz/clash-nodes-subscription-a/{Y}/{m}/update-{Ym}.yaml",
+    
     "https://sub.reajason.eu.org/clash.yaml",
     "https://proxypool.link/trojan/sub",
     "https://proxypool.link/ss/sub",
