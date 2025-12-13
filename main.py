@@ -19,73 +19,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 订阅链接列表
 links = [
-    "https://www.xrayvip.com/free.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt",
-    "https://jiang.netlify.app",
-    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v2",
-    "https://ghproxy.net/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md",
-    "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
-    
-   "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt",
-
-    "https://ghproxy.net/https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/leetomlee128/freenode/refs/heads/main/README.md",
-    "https://ghproxy.net/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt",
-
-    "https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
-    "https://ghproxy.net/https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router",
-    "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-
-    "https://ghproxy.net/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
-    "https://ghproxy.net/https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml",
-    "https://ghproxy.net/https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-    
-    "https://www.freeclashnode.com/uploads/{Y}/{m}/0-{Ymd}.yaml",
-    "https://www.freeclashnode.com/uploads/{Y}/{m}/1-{Ymd}.yaml",
-    "https://www.freeclashnode.com/uploads/{Y}/{m}/2-{Ymd}.yaml",
-    "https://www.freeclashnode.com/uploads/{Y}/{m}/3-{Ymd}.yaml",
-    "https://www.freeclashnode.com/uploads/{Y}/{m}/4-{Ymd}.yaml",
-
-    "https://app-vpn.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://node.freeclashnode.com/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://clashnode.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://vegamoviesproxy.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://clash-v2ray.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://clashzhuanxian.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://ssrclash.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://vpnlogin.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://tizijichang.github.io/uploads/{Y}/{m}/4-{Ymd}.yaml",
-    "https://github.nodebest.xyz/clash-nodes-subscription-a/{Y}/{m}/update-{Ym}.yaml",
-    
-    "https://sub.reajason.eu.org/clash.yaml",
-    "https://proxypool.link/trojan/sub",
-    "https://proxypool.link/ss/sub",
-    "https://proxypool.link/vmess/sub",
-
-    "https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-    "https://ghproxy.net/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-    "https://ghproxy.net/https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
-    "https://ghproxy.net/https://raw.githubusercontent.com/vpnmarket/sub/refs/heads/main/hiddify3.txt",
-
+    "https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/all_valid_proxies.txt",
+    "https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/All.txt",
+    "https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/all_valid_proxies.txt",
+    "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Base64/vless.txt",
+    "https://raw.githubusercontent.com/DaBao-Lee/V2RayN-NodeShare/main/base64",
+    "https://sub.proxygo.org/v2ray.php?key=f07a8ac3bfdd165819d79dd510f663a1",
 
     
 ]
