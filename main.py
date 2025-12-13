@@ -25,7 +25,6 @@ links = [
     "https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/All.txt",
     "https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Base64/vless.txt",
-    "https://raw.githubusercontent.com/DaBao-Lee/V2RayN-NodeShare/main/base64",
     "https://sub.proxygo.org/v2ray.php?key=f07a8ac3bfdd165819d79dd510f663a1",
 
     
